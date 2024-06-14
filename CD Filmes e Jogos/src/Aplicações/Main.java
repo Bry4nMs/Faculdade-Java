@@ -60,7 +60,5 @@ public class Main {
                 JOptionPane.showMessageDialog(null, "Plataforma: " + jogo.getPlataforma());
             }
         }
-
-
     }
 }
