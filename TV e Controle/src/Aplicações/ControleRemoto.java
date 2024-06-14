@@ -3,7 +3,7 @@ package Aplicações;
 import Entidades.Televisão;
 
 import javax.swing.*;
-import java.util.Scanner;
+
 
 public class ControleRemoto {
     public static void main(String[] args) {
