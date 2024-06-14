@@ -1,6 +1,6 @@
 package Entidades;
 
 public interface Desenho {
-    String desenhar();
+    public abstract String desenhar();
 
 }

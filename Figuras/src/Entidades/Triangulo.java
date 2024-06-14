@@ -1,6 +1,6 @@
 package Entidades;
 
-public class Triangulo extends Figuras{
+public class Triangulo extends Figuras implements  Desenho{
     private double base, lado1, lado2, altura;
 
     public Triangulo(){}

@@ -1,7 +1,7 @@
 package Entidades;
 
 
-public class Retangulo extends Quadrado{
+public class Retangulo extends Quadrado implements  Desenho{
     private double altura;
 
     public Retangulo(){}

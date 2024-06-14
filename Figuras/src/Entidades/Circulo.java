@@ -1,6 +1,6 @@
 package Entidades;
 
-    public class Circulo extends Figuras {
+    public class Circulo extends Figuras implements Desenho {
         private double raio;
 
         private static final double PI = 3.14;

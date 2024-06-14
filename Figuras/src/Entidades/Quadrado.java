@@ -1,6 +1,6 @@
 package Entidades;
 
-public class Quadrado extends Figuras{
+public class Quadrado extends Figuras implements Desenho{
     private double lado;
 
     public Quadrado() {}
