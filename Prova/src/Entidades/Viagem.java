@@ -50,9 +50,9 @@ public class Viagem {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Descricao da viagem: ").append(descricao).append('\'');
-        sb.append(" - Data do ínicio ").append(dataInicio).append('\'');
-        sb.append(" - Data do fim:").append(dataFim).append('\'');
+        sb.append(" Descricao da viagem: ").append(descricao).append('\'');
+        sb.append(" - Data do ínicio: ").append(dataInicio).append('\'');
+        sb.append(" - Data do fim: ").append(dataFim).append('\'');
         sb.append("\n Locais: ");
         for (Local local : locais) {
             sb.append("\n").append(local.toString());

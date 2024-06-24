@@ -41,14 +41,13 @@ public class Main {
                             String nomeEmpresa = JOptionPane.showInputDialog("Nome da empresa:");
                             double valorPago = Double.parseDouble(JOptionPane.showInputDialog("Valor pago pela empresa:"));
                             viagem = new ViagemATrabalho(descricao, nomeEmpresa, valorPago);
-                            viagem.setDataInicio(JOptionPane.showInputDialog("Data de inicio:"));
-                            viagem.setDataFim(JOptionPane.showInputDialog("Data de fim:"));
 
                         } else {
                             viagem = new Viagem(descricao);
-                            viagem.setDataInicio(JOptionPane.showInputDialog("Data de inicio:"));
-                            viagem.setDataFim(JOptionPane.showInputDialog("Data de fim:"));
+
                         }
+                        viagem.setDataInicio(JOptionPane.showInputDialog("Data de inicio:"));
+                        viagem.setDataFim(JOptionPane.showInputDialog("Data de fim:"));
 
                         char cadastrarLocal;
 
